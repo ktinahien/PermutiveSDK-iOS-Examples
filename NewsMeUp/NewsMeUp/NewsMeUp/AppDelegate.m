@@ -20,7 +20,6 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
 
-    [Permutive setBackendType:PermutiveInterfaceBackendTypeStaging];
     [Permutive configureWithProjectId:@"8e47b735-a09c-4a78-9063-73148668cde6" apiKey:@"45d033f0-b962-4bf8-83b1-067446d524b3"];
 //    [Permutive setIdentity:@"User"];
 
