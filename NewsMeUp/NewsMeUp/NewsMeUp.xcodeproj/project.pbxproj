@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		278C2E7F20AAF7EC00C4F7CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 278C2E7E20AAF7EC00C4F7CA /* AppDelegate.m */; };
+		278C2E8220AAF7EC00C4F7CA /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278C2E8120AAF7EC00C4F7CA /* FirstViewController.m */; };
+		278C2E8520AAF7ED00C4F7CA /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278C2E8420AAF7ED00C4F7CA /* SecondViewController.m */; };
+		278C2E8820AAF7ED00C4F7CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278C2E8620AAF7ED00C4F7CA /* Main.storyboard */; };
+		278C2E8A20AAF7F000C4F7CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 278C2E8920AAF7F000C4F7CA /* Assets.xcassets */; };
+		278C2E8D20AAF7F000C4F7CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 278C2E8B20AAF7F000C4F7CA /* LaunchScreen.storyboard */; };
+		278C2E9020AAF7F000C4F7CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 278C2E8F20AAF7F000C4F7CA /* main.m */; };
+		696CB22FF973F4EC66D5E019 /* Pods_NewsMeUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D93B2D00296F9AF03527364 /* Pods_NewsMeUp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		278C2E7A20AAF7EC00C4F7CA /* NewsMeUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsMeUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		278C2E7D20AAF7EC00C4F7CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		278C2E7E20AAF7EC00C4F7CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		278C2E8020AAF7EC00C4F7CA /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		278C2E8120AAF7EC00C4F7CA /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		278C2E8320AAF7EC00C4F7CA /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		278C2E8420AAF7ED00C4F7CA /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		278C2E8720AAF7ED00C4F7CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		278C2E8920AAF7F000C4F7CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		278C2E8C20AAF7F000C4F7CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		278C2E8E20AAF7F000C4F7CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		278C2E8F20AAF7F000C4F7CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		278C2E9720AAF81700C4F7CA /* Permutive.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Permutive.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D93B2D00296F9AF03527364 /* Pods_NewsMeUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NewsMeUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADF3396861F0502E02504652 /* Pods-NewsMeUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsMeUp.release.xcconfig"; path = "../../Pods/Target Support Files/Pods-NewsMeUp/Pods-NewsMeUp.release.xcconfig"; sourceTree = "<group>"; };
+		E09C8E4C7AAC4C8033552FBD /* Pods-NewsMeUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsMeUp.debug.xcconfig"; path = "../../Pods/Target Support Files/Pods-NewsMeUp/Pods-NewsMeUp.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		278C2E7720AAF7EC00C4F7CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				696CB22FF973F4EC66D5E019 /* Pods_NewsMeUp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		278C2E7120AAF7EC00C4F7CA = {
+			isa = PBXGroup;
+			children = (
+				278C2E7C20AAF7EC00C4F7CA /* NewsMeUp */,
+				278C2E7B20AAF7EC00C4F7CA /* Products */,
+				278C2E9620AAF81700C4F7CA /* Frameworks */,
+				A01853FCF1FE2AA1782CA97A /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		278C2E7B20AAF7EC00C4F7CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				278C2E7A20AAF7EC00C4F7CA /* NewsMeUp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		278C2E7C20AAF7EC00C4F7CA /* NewsMeUp */ = {
+			isa = PBXGroup;
+			children = (
+				278C2E7D20AAF7EC00C4F7CA /* AppDelegate.h */,
+				278C2E7E20AAF7EC00C4F7CA /* AppDelegate.m */,
+				278C2E8020AAF7EC00C4F7CA /* FirstViewController.h */,
+				278C2E8120AAF7EC00C4F7CA /* FirstViewController.m */,
+				278C2E8320AAF7EC00C4F7CA /* SecondViewController.h */,
+				278C2E8420AAF7ED00C4F7CA /* SecondViewController.m */,
+				278C2E8620AAF7ED00C4F7CA /* Main.storyboard */,
+				278C2E8920AAF7F000C4F7CA /* Assets.xcassets */,
+				278C2E8B20AAF7F000C4F7CA /* LaunchScreen.storyboard */,
+				278C2E8E20AAF7F000C4F7CA /* Info.plist */,
+				278C2E8F20AAF7F000C4F7CA /* main.m */,
+			);
+			path = NewsMeUp;
+			sourceTree = "<group>";
+		};
+		278C2E9620AAF81700C4F7CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				278C2E9720AAF81700C4F7CA /* Permutive.framework */,
+				5D93B2D00296F9AF03527364 /* Pods_NewsMeUp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A01853FCF1FE2AA1782CA97A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E09C8E4C7AAC4C8033552FBD /* Pods-NewsMeUp.debug.xcconfig */,
+				ADF3396861F0502E02504652 /* Pods-NewsMeUp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		278C2E7920AAF7EC00C4F7CA /* NewsMeUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 278C2E9320AAF7F000C4F7CA /* Build configuration list for PBXNativeTarget "NewsMeUp" */;
+			buildPhases = (
+				08FDA9D4291B96F4D7ACF8C2 /* [CP] Check Pods Manifest.lock */,
+				278C2E7620AAF7EC00C4F7CA /* Sources */,
+				278C2E7720AAF7EC00C4F7CA /* Frameworks */,
+				278C2E7820AAF7EC00C4F7CA /* Resources */,
+				F728AF9F531085259BCFAD0E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NewsMeUp;
+			productName = NewsMeUp;
+			productReference = 278C2E7A20AAF7EC00C4F7CA /* NewsMeUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		278C2E7220AAF7EC00C4F7CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Permutive;
+				TargetAttributes = {
+					278C2E7920AAF7EC00C4F7CA = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 278C2E7520AAF7EC00C4F7CA /* Build configuration list for PBXProject "NewsMeUp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 278C2E7120AAF7EC00C4F7CA;
+			productRefGroup = 278C2E7B20AAF7EC00C4F7CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				278C2E7920AAF7EC00C4F7CA /* NewsMeUp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		278C2E7820AAF7EC00C4F7CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278C2E8D20AAF7F000C4F7CA /* LaunchScreen.storyboard in Resources */,
+				278C2E8A20AAF7F000C4F7CA /* Assets.xcassets in Resources */,
+				278C2E8820AAF7ED00C4F7CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08FDA9D4291B96F4D7ACF8C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NewsMeUp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F728AF9F531085259BCFAD0E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../../Pods/Target Support Files/Pods-NewsMeUp/Pods-NewsMeUp-frameworks.sh",
+				"${PODS_ROOT}/PermutiveSDK/Permutive.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Permutive.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../Pods/Target Support Files/Pods-NewsMeUp/Pods-NewsMeUp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		278C2E7620AAF7EC00C4F7CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				278C2E8520AAF7ED00C4F7CA /* SecondViewController.m in Sources */,
+				278C2E7F20AAF7EC00C4F7CA /* AppDelegate.m in Sources */,
+				278C2E9020AAF7F000C4F7CA /* main.m in Sources */,
+				278C2E8220AAF7EC00C4F7CA /* FirstViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		278C2E8620AAF7ED00C4F7CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278C2E8720AAF7ED00C4F7CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		278C2E8B20AAF7F000C4F7CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				278C2E8C20AAF7F000C4F7CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		278C2E9120AAF7F000C4F7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		278C2E9220AAF7F000C4F7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		278C2E9420AAF7F000C4F7CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E09C8E4C7AAC4C8033552FBD /* Pods-NewsMeUp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KU7PPU4ZM;
+				INFOPLIST_FILE = NewsMeUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.permutive.NewsMeUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		278C2E9520AAF7F000C4F7CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADF3396861F0502E02504652 /* Pods-NewsMeUp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4KU7PPU4ZM;
+				INFOPLIST_FILE = NewsMeUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.permutive.NewsMeUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		278C2E7520AAF7EC00C4F7CA /* Build configuration list for PBXProject "NewsMeUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278C2E9120AAF7F000C4F7CA /* Debug */,
+				278C2E9220AAF7F000C4F7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		278C2E9320AAF7F000C4F7CA /* Build configuration list for PBXNativeTarget "NewsMeUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				278C2E9420AAF7F000C4F7CA /* Debug */,
+				278C2E9520AAF7F000C4F7CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 278C2E7220AAF7EC00C4F7CA /* Project object */;
+}
