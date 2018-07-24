@@ -1,21 +1,23 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-workspace 'iOS Examples'
+workspace 'iOS PermutiveSDK Examples'
 
 target 'Ziggoreth' do
+  pod 'PermutiveSDK', '~> 0.5'
+
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-
-  pod 'PermutiveSDK', '~> 0.5'
+  project 'Ziggoreth/Ziggoreth.xcodeproj'
 
 end
 
 target 'NewsMeUp' do
+  pod 'PermutiveSDK', '~> 0.5'
+
   # Comment the next line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
-
-  pod 'NewsMeUp', '~> 0.5'
+  project 'NewsMeUp/NewsMeUp/NewsMeUp.xcodeproj'
 
 end
 
