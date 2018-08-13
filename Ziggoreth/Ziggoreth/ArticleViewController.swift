@@ -28,11 +28,30 @@ final class ArticleViewController: UIViewController {
         let p = Permutive.permutive()
         let eventTracker = p?.eventTracker
 
-        eventTracker?.track("ArticleFavouriteChange", properties: [
-            "article": self.titleLabel.text ?? "",
-            "favourite": self.favouriteBarItem.isSelected,
-            "geo_ip" : "$ip_geo_info"
-            ])
+        struct ArticleFavouriteChangeProperties: Codable {
+            let name = "Test name"
+
+            let article: String
+            let favourite: Bool
+            static let geo_ip : String = "$ip_geo_info"
+
+            public var dictionary: [String: Any] {
+
+                guard let data = try? JSONEncoder().encode(self) else {
+                    return [:]
+                }
+
+                let decoded = try? JSONSerialization.jsonObject(with: data, options: [])
+                let castedDictionary =  (decoded as? [String: Any]) ?? [:]
+
+                return castedDictionary
+            }
+        }
+
+        let properties = ArticleFavouriteChangeProperties(article: self.titleLabel.text ?? "", favourite: self.favouriteBarItem.isSelected)
+        let propertiesDictionary = properties.dictionary
+
+        eventTracker?.track("ArticleFavouriteChange", properties: propertiesDictionary)
     }
 
 }
