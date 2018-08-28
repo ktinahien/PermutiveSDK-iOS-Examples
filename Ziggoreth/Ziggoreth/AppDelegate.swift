@@ -17,8 +17,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
 
-
-        Permutive.configure(withProjectId: "e0dd0ef4-399e-4fab-8a4f-c8dc39c0ea3e", apiKey: "95f7f1a4-48ac-4e7f-b574-e6ca9bdddb82")
+        if let projectId = UUID(uuidString: "e0dd0ef4-399e-4fab-8a4f-c8dc39c0ea3e"),
+            let apiKey = UUID(uuidString: "95f7f1a4-48ac-4e7f-b574-e6ca9bdddb82"),
+            let permutiveOptions = PermutiveOptions.init(projectId: projectId, apiKey: apiKey) {
+            Permutive.configure(with: permutiveOptions)
+        } else {
+            print("configuration is incorrect")
+        }
 
         Permutive.setIdentity("greg@ziggoreth.com")
 
